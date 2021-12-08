@@ -1,38 +1,38 @@
-.display{
+.display {
     box-sizing: border-box;
     margin: auto;
     text-align: right;
     height: 2.5em;
-    line-height: 2.5em;;
+    line-height: 2.5em;
+    ;
     background-color: cyan;
     width: 80%;
     font-size: 20px;
     font-weight: bold;
-    outline: 2px solid black ;
-    overflow:hidden;
-
+    outline: 2px solid black;
+    overflow: hidden;
 }
 
-.buttons-container{
+.buttons-container {
     display: grid;
-    grid-template-rows: autorepeat(5,1fr);
-    grid-template-columns:repeat(4,1fr);
-    grid-gap:1px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
     background-color: black;
     text-align: center;
-    width:80%;
-    height:15em;
+    width: 80%;
+    height: 15em;
     margin: auto;
-    outline: 2px solid black ;
+    outline: 2px solid black;
 }
 
-.buttons-container > div{
+.buttons-container>div {
     background-color: lightgreen;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 #zero {
     grid-column: 1/ 3;
-   }
+}
